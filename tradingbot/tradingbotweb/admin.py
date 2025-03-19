@@ -1,4 +1,4 @@
-from django.contrib import admin
+from django.contrib import admin # type: ignore
 from .models import Currency, Transaction, CurrencyHistory, Currencybalance, ExchangeGoal
 # Register your models here.
 
